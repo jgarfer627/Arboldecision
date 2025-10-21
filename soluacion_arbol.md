@@ -25,7 +25,12 @@ Se calcula la ganancia de información para cada atributo utilizando la fórmula
 
 $$Gain(S, A) = H(S) - \sum_{v \in Values(A)} \frac{|S_v|}{|S|} H(S_v)$$
 
-
+| Atributo ($A$) | Entropía Ponderada ($$\sum \frac{|S_v|}{|S|} H(S_v)$$) | Ganancia ($$Gain(S, A)$$) |
+| :--- | :--- | :--- | :--- |
+| **Edad** | $0.6940$ | $0.940 - 0.6940 = **0.246**$ |
+| **Estudiante** | $0.7885$ | $0.940 - 0.7885 = **0.152**$ |
+| **Calificación Crediticia** | $0.8920$ | $0.940 - 0.8920 = **0.048**$ |
+| **Ingresos** | $0.9108$ | $0.940 - 0.9108 = **0.029**$ |
 
 ---
 
@@ -82,11 +87,3 @@ La estructura del árbol de decisión, priorizando el atributo con la mayor redu
     * **SI Edad = $> 40$** $\rightarrow$ **¿Calificación Crediticia?**
         * Continúa la división...
 
-
-
-| Atributo ($A$) | Entropía Ponderada ($$\sum \frac{|S_v|}{|S|} H(S_v)$$) | Ganancia ($$Gain(S, A)$$) |
-| :--- | :--- | :--- | :--- |
-| **Edad** | $0.6940$ | $0.940 - 0.6940 = **0.246**$ |
-| **Estudiante** | $0.7885$ | $0.940 - 0.7885 = **0.152**$ |
-| **Calificación Crediticia** | $0.8920$ | $0.940 - 0.8920 = **0.048**$ |
-| **Ingresos** | $0.9108$ | $0.940 - 0.9108 = **0.029**$ |
