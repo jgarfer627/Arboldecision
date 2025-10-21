@@ -28,7 +28,7 @@ $$Gain(S, A) = H(S) - \sum_{v \in Values(A)} \frac{|S_v|}{|S|} H(S_v)$$
 
 | Atributo ($A$) | Entropía Ponderada  | Ganancia  | Entropía | Decisión |
 | :--- | :--- | :--- | :--- | :--- |
-| 4 | 4 | 0 | $0$ | **Sí** (Nodo Puro) |
+| **Edad** | $0.6940$ | $0.940 - 0.6940 = **0.246**$ | $0$ | **Sí** (Nodo Puro) |
 
 
 
