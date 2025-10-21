@@ -25,6 +25,13 @@ Se calcula la ganancia de información para cada atributo utilizando la fórmula
 
 $$Gain(S, A) = H(S) - \sum_{v \in Values(A)} \frac{|S_v|}{|S|} H(S_v)$$
 
+
+| Sub-Atributo | $Gain(S_{\leq 30}, A)$ |
+| :--- | :--- |
+| **Estudiante** | **0.571** |
+
+
+
 | Atributo ($A$) | Entropía Ponderada ($$\sum \frac{|S_v|}{|S|} H(S_v)$$) | Ganancia ($$Gain(S, A)$$) |
 
 
