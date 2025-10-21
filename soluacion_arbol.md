@@ -26,7 +26,9 @@ Se calcula la ganancia de información para cada atributo utilizando la fórmula
 $$Gain(S, A) = H(S) - \sum_{v \in Values(A)} \frac{|S_v|}{|S|} H(S_v)$$
 
 
-
+| Conteo | Sí | No | Entropía | Decisión |
+| :--- | :--- | :--- | :--- | :--- |
+| 4 | 4 | 0 | $0$ | **Sí** (Nodo Puro) |
 
 
 
