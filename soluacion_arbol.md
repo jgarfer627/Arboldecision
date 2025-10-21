@@ -26,12 +26,12 @@ Se calcula la ganancia de información para cada atributo utilizando la fórmula
 $$Gain(S, A) = H(S) - \sum_{v \in Values(A)} \frac{|S_v|}{|S|} H(S_v)$$
 
 
-| Atributo ($A$) | Entropía Ponderada ($\sum \frac{|S_v|}{|S|} H(S_v)$) | No | Entropía |
+| Atributo ($A$) | Entropía Ponderada ($\sum \frac{abs{S_v}}{abs{S}} H(S_v)$) | No | Entropía |
 | :--- | :--- | :--- | :--- |
 | 4 | 4 | 0 | $0$ |
 
 
-| Atributo ($A$) | Entropía Ponderada ($\sum \frac{`|S_v`|}{`|S`|} H(S_v)$) | Ganancia ($Gain(S, A)$) |
+| Atributo ($A$) | Entropía Ponderada ($\sum \frac{abs{S_v}}{abs{S}} H(S_v)$) | Ganancia ($Gain(S, A)$) |
 | **Edad** | $0.6940$ | $0.940 - 0.6940 = **0.246**$ |
 | **Estudiante** | $0.7885$ | $0.940 - 0.7885 = **0.152**$ |
 | **Calificación Crediticia** | $0.8920$ | $0.940 - 0.8920 = **0.048**$ |
