@@ -26,7 +26,7 @@ Se calcula la ganancia de información para cada atributo utilizando la fórmula
 $$Gain(S, A) = H(S) - \sum_{v \in Values(A)} \frac{|S_v|}{|S|} H(S_v)$$
 
 
-| Atributo ($A$) | Entropía Ponderada ($\sum \frac{abs{S_v}}{abs{S}} H(S_v)$) | No | Entropía |
+| Atributo ($A$) | Entropía Ponderada ($$\sum \frac{abs{S_v}}{abs{S}} H(S_v)$$) | No | Entropía |
 | :--- | :--- | :--- | :--- |
 | 4 | 4 | 0 | $0$ |
 
